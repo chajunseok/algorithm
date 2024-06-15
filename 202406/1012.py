@@ -1,7 +1,6 @@
 dx = [-1, 1, 0, 0]
 dy = [0, 0, -1, 1]
 
-
 def move(x, y, visited, bat, N, M): # dfs
     stack = [(x, y)]
     visited[x][y] = 1
