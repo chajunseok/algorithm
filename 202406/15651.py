@@ -9,7 +9,7 @@ def perm(k):
         print(*tmp)
         return
 
-    for i in range(1, N + 1):
+    for i in range(0, N + 1):
         tmp[k] = i
         perm(k+1)
         tmp[k] = 0
